@@ -1,0 +1,12 @@
+.loginlogo {
+    margin: auto;
+    margin-top: 40%;
+    width: 350px
+}
+.login {
+    color: white;
+    background-color: rgb(0, 24, 54) !important;
+    width: 100px;
+    height: 30px;
+    margin-top: 9%;
+}

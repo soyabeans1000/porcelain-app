@@ -1,0 +1,42 @@
+.bathroomCard {
+    width:95%;
+    height:auto;  
+    align-content: center;
+    margin:10px;
+    margin-bottom:5%;
+    display: flex;
+}
+.profileimg {
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 4%;
+    border-radius: 100%;
+    margin-top: 85px
+}
+.profileinput {
+    display: none;
+}
+.picture {
+    border: none;
+    font-size: 20px;
+    color: #010740;
+    bottom: 1.5em;
+    padding: 0;
+    left: 12.2em;
+    background-color: transparent;
+}
+.username{
+    margin-top: 189px;
+    width: 54%;
+    float: left;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+
+.profile_container
+{
+    width:60%;
+    border: 10px red dotted;
+    margin:auto;
+}

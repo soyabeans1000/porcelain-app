@@ -1,0 +1,17 @@
+.navicon {
+    font-size: 35px;
+    color: #010740;
+}
+.container {
+    max-width: 100%;
+}
+.navlink {
+    padding: .5rem 1.5rem;
+}
+.navlink2 {
+    padding: .5rem 2rem;
+}
+.navbar {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+}

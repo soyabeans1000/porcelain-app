@@ -1,0 +1,160 @@
+* {
+  font-family: 'Raleway', sans-serif !important;
+}
+.App {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.subtitle {
+  margin-top: 20%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+  -webkit-animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+img {
+  width: 170px;
+}
+.buttonicons, .buttonicons2 {
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+}
+.buttonicons2 {
+  margin-top: 18%
+}
+
+.likeicon {
+  border: none;
+  font-size: 25px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.deleteicon {
+  border: none;
+  font-size: 18px;
+  float: right;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 24px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transform: translateY(-29%);
+  font-weight: bold;
+}
+
+.comment {
+  width: 95%;
+  text-align: left;
+  margin-bottom: 1%;
+  /* height: 100px; */
+}
+.commentcontainer {
+  height: 110px;
+  overflow: auto;
+  border: .5px solid rgb(202, 202, 202);
+  padding: 1% 1% 1% 2%;
+}
+.submission {
+  font-size: 25px;
+  border: none;
+  font-weight: bold;
+}
+.card_size {
+  margin: 4% 3% 28% 3%;
+}
+.cardsize {
+  margin: 154% 3% 28% 3%;
+}
+.requestcontainer {
+  margin-top: 20%;
+  margin-bottom: 26%
+}
+.submenu {
+  margin-top: 2%;
+  border-bottom: 1px solid rgb(0, 92, 179);
+  border-top: .5px solid rgb(0, 92, 179);
+  margin-bottom: 3%
+}
+.icons {
+  font-size: 35px;
+  color: #010740;
+  margin: 3% 10%;
+}
+.commentname {
+  font-weight: 650;
+}
+.comment-form {
+  border: 1px solid lightgray;
+  height: 32px;
+  border-top: none;
+}
+.commenttext:focus, .commentsubmit:focus, .likeicon:focus, .deleteicon:focus {
+  outline: none;
+}
+.commenttext {
+  width: 80%;
+  height: 30px;
+  float: left;
+  border: none;
+}
+.commentsubmit {
+  padding: 1px;
+  border: none;
+}
+.loginbtn{
+  border-radius: 0;
+  width: 70px;
+}
+.profilecontainer {
+  margin-bottom: 21%;
+}
+.cardimg {
+  height: 300px;
+}
+.img-fluid {
+  height: 260px;
+}
+.Ctitle {
+  font-family: 'Poppins', sans-serif !important;
+}
+.map {
+  margin-top: 5%;
+}
+
+.container_width
+{
+  
+  border: 10px solid red;
+}
+
