@@ -84,7 +84,7 @@ class ProfileComments extends Component {
                                     <Card id={item.bathroomId} className="bathroomCard" onClick={this.handlebathroomId}>
                                         <CardImg className="cardimg" top width="50%" src={item.image} alt="Card image cap" className="img-fluid" />
                                         <CardBody>
-                                            <CardTitle className="Ctitle">{item.location}</CardTitle>
+                                            <CardTitle>{item.location}</CardTitle>
                                             <CardSubtitle><FaCommentDots /> {item.comment}</CardSubtitle>
                                         </CardBody>
                                     </Card>

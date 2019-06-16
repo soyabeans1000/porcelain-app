@@ -135,12 +135,12 @@ class Selectedbr extends Component {
 
     render () {
         return (
-            <div className="container1">
+            <div>
                 <button onClick={_ => {this.props.toggleredirect()}} className="buttonicons"><IoIosArrowBack /></button>
-                <Card className="card_size">
-                    <CardImg className="cardimg" src={this.state.image} />
+                <Card>
+                    <CardImg src={this.state.image} />
                     <CardBody>
-                        <CardTitle className="Ctitle"> {this.state.location}<br/> {this.state.caption} </CardTitle>
+                        <CardTitle> {this.state.location}<br/> {this.state.caption} </CardTitle>
                         <CardText>  <span>  Cleanliness: {this.state.cleanliness}  &#9679; Stall: {this.state.stalls} &#9679; Level: {this.state.level} <br>
                         </br> {this.state.gender}
                         
@@ -149,7 +149,7 @@ class Selectedbr extends Component {
                             {this.state.likecount}
                         </div>
                         </span>
-                        <div className="commentcontainer">
+                        <div>
                             {this.state.comments.sort(function(a, b){
                                 var keyA = new Date(a.createdAt),
                                     keyB = new Date(b.createdAt)
@@ -166,7 +166,7 @@ class Selectedbr extends Component {
                                     )})}
                         </div>
                         <div>
-                            <form className="comment-form" id="commentform">
+                            <form  id="commentform">
                                 <div className="comment-form-fields">
                                     <textarea placeholder="Comment" className="commenttext" rows="2" id="newcomment" onChange={this.handleInputChange}></textarea>
                                     <button type="submit" className="commentsubmit" onClick={this.handleSubmit}>Post</button>
