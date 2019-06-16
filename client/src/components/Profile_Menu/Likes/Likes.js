@@ -44,7 +44,7 @@ class ProfileLikes extends React.Component {
             <div>
                 <Container>
                     <Row>
-                        <Col className="container">
+                        <Col>
                             {this.state.likedbr.map(item => (
                                 <div>
                                     <Card id={item.id} className="bathroomCard" onClick={this.handlebathroomId}>

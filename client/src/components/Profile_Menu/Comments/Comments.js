@@ -78,7 +78,7 @@ class ProfileComments extends Component {
             <div>
                 <Container>
                     <Row>
-                        <Col className="container">
+                        <Col>
                             {this.state.posts.map(item => (
                                 <div>
                                     <Card id={item.bathroomId} className="bathroomCard" onClick={this.handlebathroomId}>
