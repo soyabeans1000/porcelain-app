@@ -9,7 +9,8 @@ import axios from 'axios'
 import { AutoScaling } from 'aws-sdk';
 
 const formcontainer = {
-   margin: '10vw' 
+   margin: '10vw', 
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0+100;Blue+to+Transparent */
 }
 
 class AddBR extends Component {
@@ -174,7 +175,7 @@ class AddBR extends Component {
     render() {
         return (
 
-<div style={formcontainer} className="shadow p-5 rounded">
+<div style={formcontainer} className="shadow p-5 rounded bg-light">
 {this.handleAdded()}
     </div>          
         )
