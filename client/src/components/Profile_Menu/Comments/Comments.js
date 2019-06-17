@@ -76,9 +76,7 @@ class ProfileComments extends Component {
     render() {
         return (
             <div>
-                <Container>
-                    <Row>
-                        <Col>
+               
                             {this.state.posts.map(item => (
                                 <div>
                                     <Card id={item.bathroomId} className="bathroomCard" onClick={this.handlebathroomId}>
@@ -90,9 +88,7 @@ class ProfileComments extends Component {
                                     </Card>
                                 </div>
                             ))}
-                        </Col>
-                    </Row>
-                </Container>
+                      
             </div>
         )
     }

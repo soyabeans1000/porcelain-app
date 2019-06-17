@@ -60,6 +60,16 @@ class Profile extends Component {
             )
         } else {
             return (
+                // <div>
+                //     <div>
+                //         <h3 className="username">{this.state.username}</h3>
+                //         <img src={this.state.userimage} className="profileimg"/>
+                //         <button onClick={this.handlechangepicture} className="picture"><FaCamera /></button>
+                //     </div>
+                //     <input class="file-upload" type="file" accept="image/*" className="profileinput" ref={input => this.inputElement = input} onChange={this.handlepictureinput}/>
+                //     <SubMenu toggleredirect={this.toggleredirect}/>                
+                // </div>
+
                 <div>
                     <div>
                         <h3 className="username">{this.state.username}</h3>

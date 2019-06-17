@@ -42,9 +42,7 @@ class ProfileLikes extends React.Component {
     render() {
         return (
             <div>
-                <Container>
-                    <Row>
-                        <Col>
+                
                             {this.state.likedbr.map(item => (
                                 <div>
                                     <Card id={item.id} className="bathroomCard" onClick={this.handlebathroomId}>
@@ -55,9 +53,7 @@ class ProfileLikes extends React.Component {
                                     </Card>
                                 </div>
                             ))}
-                        </Col>
-                    </Row>
-                </Container>
+                        
             </div>
         )
     }

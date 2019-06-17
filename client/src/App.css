@@ -154,7 +154,30 @@ img {
 
 .container_width
 {
-  
+  max-width:100vw;
   border: 10px solid red;
 }
 
+
+@media only screen and (max-width: 640px) {
+
+
+  .container_width
+{
+  max-width:100vw;
+  border: 10px solid blue;
+}
+
+}
+
+@media only screen and (max-width: 920px) {
+
+
+  .container_width
+{
+  max-width:100vw;
+  border: 10px solid yellow;
+}
+
+
+}
