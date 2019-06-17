@@ -10,7 +10,7 @@ import { AutoScaling } from 'aws-sdk';
 
 const formcontainer = {
    
-    margin: '0 auto', 
+    margin: '0 auto'
 }
 
 class AddBR extends Component {
@@ -175,9 +175,9 @@ class AddBR extends Component {
     render() {
         return (
 
-         <div className="justify-content-center">
+         <div className="form_container bg-danger">
 
-<div style={formcontainer} className="shadow p-5 rounded bg-light">
+<div className="shadow p-5 rounded bg-light">
 {this.handleAdded()}
     </div>          
     </div>

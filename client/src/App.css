@@ -155,6 +155,18 @@ img {
   border: 10px solid red;
 }
 
+.form_container
+{
+  width:50%;
+  margin-top:90px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:90px;
+  background-color:green;
+}
+
+
+
 
 @media only screen and (max-width: 640px) {
 
@@ -163,6 +175,17 @@ img {
 {
   max-width:100vw;
   border: 10px solid blue;
+}
+
+
+.form_container
+{
+  width:90%;
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:50px;
+  background-color:red;
 }
 
 }
@@ -175,6 +198,17 @@ img {
   max-width:100vw;
   border: 10px solid yellow;
 }
+
+.form_container
+{
+  width:90%;
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:50px;
+  background-color:yellow;
+}
+
 
 
 }
