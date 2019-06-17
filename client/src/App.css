@@ -98,9 +98,10 @@ img {
 }
 .submenu {
   margin-top: 2%;
-  border-bottom: 1px solid rgb(0, 92, 179);
-  border-top: .5px solid rgb(0, 92, 179);
-  margin-bottom: 3%
+ border-bottom: 1px solid rgb(0, 92, 179);
+/*  border-top: 1px solid rgb(0, 92, 179); */
+  
+  margin-bottom: 1%
 }
 .icons {
   font-size: 30px;

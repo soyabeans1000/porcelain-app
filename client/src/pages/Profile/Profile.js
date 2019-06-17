@@ -64,7 +64,7 @@ class Profile extends Component {
                     <div>
                         <h3 className="username">UserName:{this.state.username}</h3>
                         <img src={this.state.userimage} className="profileimg"/>
-                        <button onClick={this.handlechangepicture} className="picture"><FaCamera /></button>
+                        <button onClick={this.handlechangepicture} className="picture float-right"><FaCamera /></button>
                     </div>
                     <input class="file-upload" type="file" accept="image/*" className="profileinput" ref={input => this.inputElement = input} onChange={this.handlepictureinput}/>
                     <SubMenu toggleredirect={this.toggleredirect}/>                
@@ -74,7 +74,7 @@ class Profile extends Component {
     }
     render() {
         return (
-            <div className="profile_container">
+            <div className="profile_container shadow-lg">
             
                 {this.handlepath()}
         
