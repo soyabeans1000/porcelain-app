@@ -46,14 +46,13 @@ class ProfileLikes extends React.Component {
                             {this.state.likedbr.map(item => (
                                 <div>
                                     <Card id={item.id} className="bathroomCard" onClick={this.handlebathroomId}>
-                                        <CardImg className="cardimg" top width="50%" src={item.image} alt="Card image cap" className="img-fluid" />
+                                        <CardImg top width="100%" src={item.image} alt="Card image cap"  />
                                         <CardBody>
                                             <CardTitle className="Ctitle">{item.location}</CardTitle>
                                         </CardBody>
                                     </Card>
                                 </div>
-                            ))}
-                        
+                            ))}                      
             </div>
         )
     }

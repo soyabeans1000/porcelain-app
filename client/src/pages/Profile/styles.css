@@ -1,18 +1,18 @@
 .bathroomCard {
-    width:95%;
-    height:auto;  
-    align-content: center;
-    margin:10px;
-    margin-bottom:5%;
-    display: flex;
+    width:50%;
+    margin:auto;
+   
 }
 .profileimg {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     float: right;
     margin-right: 4%;
     border-radius: 100%;
-    margin-top: 85px
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .profileinput {
     display: none;
@@ -27,17 +27,23 @@
     background-color: transparent;
 }
 .username{
-    margin-top: 189px;
-    width: 54%;
-    float: left;
+    
+    width:54px;
     font-family: 'Poppins', sans-serif !important;
+    font-size:18px;
 }
 
 
 .profile_container
 {
-    width:60%;
-    margin:auto;
+    
+    min-height:90vh;   
+    
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+
+    
 }
 
 @media only screen and (max-width: 640px) {
@@ -45,8 +51,14 @@
 
     .profile_container
 {
-    width:90%;
-    margin:auto;
+    min-width:90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
    
 }
 
@@ -55,11 +67,10 @@
 @media only screen and (max-width: 920px) {
 
 
-    .profile_container
-{
-    width:90%;
-    
-
-}
+    .bathroomCard {
+        width:50%;
+        margin:auto;
+       
+    }
 
 }

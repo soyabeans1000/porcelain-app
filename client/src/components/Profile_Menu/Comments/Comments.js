@@ -95,7 +95,7 @@ class ProfileComments extends Component {
                             {this.state.posts.map(item => (
                                 <div>
                                     <Card id={item.bathroomId} className="bathroomCard" onClick={this.handlebathroomId}>
-                                        <CardImg  className="cardimg" top width="50%" src={item.image} className="img-fluid"  />
+                                        <CardImg top width="100%" src={item.image}  />                                      
                                         <CardBody>
                                             <CardTitle>{item.location}</CardTitle>
                                             <CardSubtitle><FaCommentDots /> {item.comment}</CardSubtitle>

@@ -60,13 +60,23 @@ class Profile extends Component {
             )
         } else {
             return (
+                // <div>
+                //     <div>
+                //         <h3 className="username">{this.state.username}</h3>
+                //         <img src={this.state.userimage} className="profileimg"/>
+                //         <button onClick={this.handlechangepicture} className="picture"><FaCamera /></button>
+                //     </div>
+                //     <input class="file-upload" type="file" accept="image/*" className="profileinput" ref={input => this.inputElement = input} onChange={this.handlepictureinput}/>
+                //     <SubMenu toggleredirect={this.toggleredirect}/>                
+                // </div>
+
                 <div>
                     <div>
-                        <h3 className="username">UserName:{this.state.username}</h3>
+                        <h3 className="username">{this.state.username}</h3>
                         <img src={this.state.userimage} className="profileimg"/>
-                        <button onClick={this.handlechangepicture} className="picture"><FaCamera /></button>
+                       
                     </div>
-                    <input class="file-upload" type="file" accept="image/*" className="profileinput" ref={input => this.inputElement = input} onChange={this.handlepictureinput}/>
+                
                     <SubMenu toggleredirect={this.toggleredirect}/>                
                 </div>
             )
@@ -74,14 +84,14 @@ class Profile extends Component {
     }
     render() {
         return (
-            <div className="profile_container">
-            
+            <div className="profile_container bg-warning"> 
+            <div>
                 {this.handlepath()}
-        
+            </div>
             </div>
         )
+
     }
 }
 
 export default Profile
-
