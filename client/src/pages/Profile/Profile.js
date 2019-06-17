@@ -74,7 +74,7 @@ class Profile extends Component {
     }
     render() {
         return (
-            <div className="profile_container shadow-lg">
+            <div className="profile_container">
             
                 {this.handlepath()}
         
