@@ -3,6 +3,9 @@ import { GoogleApiWrapper, Map, Marker, InfoWindow } from "google-maps-react"
 import Axios from "axios"
 import BathroomGet from '../../utils/bathroom'
 
+
+
+
 export class MapContainer extends Component {
   constructor(props) {
     super(props)

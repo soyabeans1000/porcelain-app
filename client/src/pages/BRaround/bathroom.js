@@ -8,6 +8,10 @@ import Map from '../../components/GoogleMap/Map'
 
 // Need to create a add icon
 
+const styler = {
+    paddingTop:'50px'
+ }
+
 class BRAroundMe extends Component {
     state = {
         likecount: null,
@@ -148,7 +152,7 @@ class BRAroundMe extends Component {
 
     render() {
         return (
-            <div>
+            <div style={styler}>
                 <h5 className="subtitle">When Ya Gotta Go, Ya Gotta Know!</h5>
                 <div className="map">
                     <Map handleOnClick={this.handleOnClick}/>

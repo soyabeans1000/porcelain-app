@@ -6,10 +6,12 @@ import Loginpage from './pages/login'
 import Profile from './pages/Profile'
 import Requests from './pages/requests'
 import './App.css'
-
-
 import NavBar from './components/NavBar/navbar'
 import HeaderBar from './components/Header/header'
+
+
+
+
 class App extends Component {
   constructor(props){
     super(props)
@@ -44,33 +46,67 @@ class App extends Component {
     if (localStorage.getItem('userId')) {
       if (localStorage.getItem('adminstatus') === 'true') {
         return (
-          <div>
-          <HeaderBar loggedIn={this.state.isLoggedIn} updateLoginStatus={this.toggleLogin}/>
-           <Switch>
+          <div className="bg-danger border-primary">
+          <div className="container-fluid bg-secondary">
+            <div className="row bg-primary">
+              <div className="col bg-dark"> 
+               <HeaderBar loggedIn={this.state.isLoggedIn} updateLoginStatus={this.toggleLogin} className="bg-primary" />
+              </div>
+               </div> 
+               <div className="row bg-primary border border-primary">
+              <div className="col bg-success">
+              <div class="d-flex align-items-start">
+                 <Switch>
               <Route exact path="/" component={ () => <BRAroundMe isLoggedIn={this.state.isLoggedIn} updateLoginStatus={this.toggleLogin} /> }/>
               <Route path="/AddBR" component={AddBR} />
               <Route path="/Profile" component={Profile} />
               <Route path="/request" component={Requests} />
               <Redirect to="/" />
             </Switch>
-          <NavBar />
+              </div>
+              </div>
+               </div> 
+               <div className="row bg-primary border border-primary">
+              <div className="col bg-dark">
+              <NavBar /></div>
+               </div> 
+            </div>  
         </div>
         )
       } else {
         return (
-          <div>
-          <HeaderBar loggedIn={this.state.isLoggedIn} updateLoginStatus={this.toggleLogin}/>
-           <Switch>
+
+
+          <div className="bg-danger border-primary">
+          <div className="container-fluid bg-secondary">
+            <div className="row bg-primary">
+              <div className="col bg-dark"> 
+               <HeaderBar loggedIn={this.state.isLoggedIn} updateLoginStatus={this.toggleLogin}/>
+              </div>
+               </div> 
+               <div className="row bg-primary border border-primary">
+              <div className="col bg-success">
+              <div class="d-flex align-items-start">
+              <Switch>
               <Route exact path="/" component={ () => <BRAroundMe isLoggedIn={this.state.isLoggedIn} updateLoginStatus={this.toggleLogin} /> }/>
               <Route path="/AddBR" component={AddBR} />
               <Route path="/Profile" component={Profile} />
+              <Route path="/request" component={Requests} />
               <Redirect to="/" />
             </Switch>
-          <NavBar />
+              </div>
+              </div>
+               </div> 
+               <div className="row bg-primary border border-primary">
+              <div className="col bg-dark">
+              <NavBar /></div>
+               </div> 
+            </div>  
         </div>
-        )
-      }
-    } else {
+        )}
+    }
+
+        else {
       return (
         <div>
          <Switch>
@@ -84,13 +120,11 @@ class App extends Component {
 
   render() {
     return (
-      
-      <div class="d-flex align-items-start">
+   
       <div className="App">
         {this.loggedin()}
       </div>
-      </div>
-     
+      
     )
   }
 }
