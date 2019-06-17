@@ -33,9 +33,9 @@ class ProfileSubMenu extends React.Component {
 
   render() {
   return (
-    <div className="profilecontainer">
+    <div>
       <BrowserRouter>  
-            <nav className="submenu">
+            <nav>
               <Link to='/Likes' onClick={this.handlelikes} > <IoIosHeart className="icons"/> Likes </Link>
               <Link to='/Comments' onClick={this.handlelikes}> <FaCommentDots className="icons"/>Comments</Link>
             </nav>
