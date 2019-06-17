@@ -135,9 +135,9 @@ class Selectedbr extends Component {
 
     render () {
         return (
-            <div>
-                <button onClick={_ => {this.props.toggleredirect()}} className="buttonicons"><IoIosArrowBack /></button>
-                <Card>
+            <div className="m-5 p-5">
+                <button onClick={_ => {this.props.toggleredirect()}} className="buttonicons"><IoIosArrowBack />Back</button>
+                <Card className="border-dark">
                     <CardImg src={this.state.image} />
                     <CardBody>
                         <CardTitle> {this.state.location}<br/> {this.state.caption} </CardTitle>
