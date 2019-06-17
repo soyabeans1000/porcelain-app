@@ -89,7 +89,7 @@ const Form = ({handleFormSubmit, handleInputChange, handleLocation, street, city
             </select>
         </div>
 
-        <div class='row' p>
+        <div class='row'>
             <label htmlFor="stalls">Number of Stalls </label>
             <input id="stalls" type="number" value={stalls} onChange={handleInputChange} />
         </div>

@@ -8,8 +8,7 @@ import Request from '../../utils/request.js'
 import axios from 'axios'
 
 const formcontainer = {
-    margin:'auto',
-    border: '10px red dashed'
+    margin:'auto'
 }
 
 class AddBR extends Component {
@@ -147,7 +146,7 @@ class AddBR extends Component {
                 <div>
                     <h4 className="subtitle">Add a Restroom</h4> 
                     <style>@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');</style>
-                    <div className = 'container border' id = 'addForm'>
+                    <div className = 'container' id = 'addForm'>
                         <Form handleInputChange={this.handleInputChange}
                             handleFormSubmit={this.handleFormSubmit} 
                             handleLocation={this.handleLocation}

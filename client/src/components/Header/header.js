@@ -8,7 +8,7 @@ import logo from '../../assets/Porcelain.png'
 
 const HeaderBar = (props) => (
     <>
-    <Navbar className="bg-light" expand="lg" fixed="top">
+    <Navbar className="bg-light mb-5" expand="lg" fixed="top">
         <Navbar.Brand href="#home" className='navbarb'>
             {<img src={logo} alt="Porcelain" className='logo'/>}
         </Navbar.Brand>
