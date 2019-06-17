@@ -3,7 +3,7 @@ import { FaLocationArrow } from "react-icons/fa"
 import './form.css'
 
 const Form = ({handleFormSubmit, handleInputChange, handleLocation, street, city, state, zipcode, gender, stalls, level, cleanliness, caption }) =>
-    <form className="form" action="/action_page.php" id="addbrform">       
+    <form action="/action_page.php" id="addbrform">       
         <div class='row'>
             <label htmlFor="street">Street </label>
             <button onClick={handleLocation} className="locationicon"><FaLocationArrow /></button>

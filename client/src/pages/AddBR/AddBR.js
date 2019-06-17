@@ -6,9 +6,10 @@ import Dispbathroom from '../../components/dispbathroom'
 import User from '../../utils/user.js'
 import Request from '../../utils/request.js'
 import axios from 'axios'
+import { AutoScaling } from 'aws-sdk';
 
 const formcontainer = {
-    margin:'auto'
+   margin: '10vw' 
 }
 
 class AddBR extends Component {
@@ -146,7 +147,7 @@ class AddBR extends Component {
                 <div>
                     <h4 className="subtitle">Add a Restroom</h4> 
                     <style>@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');</style>
-                    <div className = 'container' id = 'addForm'>
+                    <div id = 'addForm'>
                         <Form handleInputChange={this.handleInputChange}
                             handleFormSubmit={this.handleFormSubmit} 
                             handleLocation={this.handleLocation}
@@ -172,10 +173,10 @@ class AddBR extends Component {
 
     render() {
         return (
-            <div style={formcontainer} className="align-center">
 
-                {this.handleAdded()}
-            </div>
+<div style={formcontainer} className="shadow p-5 rounded">
+{this.handleAdded()}
+    </div>          
         )
     }
 }

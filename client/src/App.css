@@ -2,15 +2,11 @@
 
 * {
   font-family: 'Raleway', sans-serif !important;
+  font-size:14px;
 }
   
-.App {
-  text-align: center;
-}
 
-.subtitle {
-  margin-top: 20%;
-}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

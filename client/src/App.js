@@ -84,13 +84,14 @@ class App extends Component {
 
   render() {
     return (
-      
-      <div class="d-flex align-items-start">
+      <div className="container">
+      <div className="d-flex align-items-start">
       <div className="App">
         {this.loggedin()}
       </div>
       </div>
-     
+      </div>
+      
     )
   }
 }
