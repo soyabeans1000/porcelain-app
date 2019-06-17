@@ -1,5 +1,18 @@
 .selectedBathCard
 {
-    margin-top: 20px;
+    margin-top: 30px;
+ }
+
+
+@media only screen and (max-width: 640px) {
+
+
+    .selectedBathCard
+    {
+        margin-top: 30px;
+    }
     
-}
+  
+  }
+  
+  

@@ -5,6 +5,7 @@ import User from '../../utils/user'
 import Likes from '../../utils/likes'
 import { IoIosHeart, IoIosHeartEmpty, IoIosArrowBack } from "react-icons/io"
 import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap'
+import './style.css'
 
 
 class Selectedbr extends Component {
@@ -135,9 +136,9 @@ class Selectedbr extends Component {
 
     render () {
         return (
-            <div className="m-5 p-5">
+            <div className="selectedBathCard">
                 <button onClick={_ => {this.props.toggleredirect()}} className="buttonicons"><IoIosArrowBack />Back</button>
-                <Card className="border-dark">
+                <Card>
                     <CardImg src={this.state.image} />
                     <CardBody>
                         <CardTitle> {this.state.location}<br/> {this.state.caption} </CardTitle>
