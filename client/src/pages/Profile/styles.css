@@ -36,9 +36,9 @@
 .bathroomCard {
     width:50%;
     margin:auto;
+    background-color: lightgrey;
    
 }
-
 
 .profile_container
 {
@@ -47,7 +47,7 @@
     margin-top:100px;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom:100px;
+    margin-bottom:200px;
 
     
 }
@@ -58,28 +58,34 @@
     .profile_container
 {
     min-height:90vh;   
-    margin-top:100px;
+    margin-top:75px;
     margin-left:auto;
     margin-right:auto;
     margin-bottom:100px;
 }
 
 .bathroomCard {
-    width:50%;
-    margin:auto;
-   
+    width:90%; 
 }
 
 
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
 
 
     .bathroomCard {
-        width:50%;
-        margin:auto;
-       
+        width:90%;
+        margin:auto;   
+    }
+
+    .profile_container
+    {
+        min-height:75vh;   
+        margin-top:80px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:100px;
     }
 
 }
