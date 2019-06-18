@@ -5,6 +5,9 @@ import ProfileComments from './Comments'
 import { IoIosHeart } from "react-icons/io"
 import { FaCommentDots } from "react-icons/fa"
 
+const jumbosize = {
+  width: '50%'
+}
 
 class ProfileSubMenu extends React.Component {
 

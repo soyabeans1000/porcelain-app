@@ -6,6 +6,10 @@ import Image from '../../utils/image.js'
 import './styles.css'
 import { FaCamera } from "react-icons/fa"
 
+// const jumbosize = {
+//     width: '50%'
+//   }
+
 
 class Profile extends Component {
     constructor(props){
@@ -61,13 +65,15 @@ class Profile extends Component {
         } else {
             return (
                 <div>
-                    <div>
+                    <div className="jumbotron">
                         <h3 className="username">UserName:{this.state.username}</h3>
                         <img src={this.state.userimage} className="profileimg"/>
                         <button onClick={this.handlechangepicture} className="picture float-right"><FaCamera /></button>
+                        <input class="file-upload" type="file" accept="image/*" className="profileinput" ref={input => this.inputElement = input} onChange={this.handlepictureinput}/>
+                        <SubMenu toggleredirect={this.toggleredirect}/>
+                   
                     </div>
-                    <input class="file-upload" type="file" accept="image/*" className="profileinput" ref={input => this.inputElement = input} onChange={this.handlepictureinput}/>
-                    <SubMenu toggleredirect={this.toggleredirect}/>                
+                                   
                 </div>
             )
         }
@@ -76,8 +82,9 @@ class Profile extends Component {
         return (
             <div className="profile_container">
             
+            <div className="jumbotron mx-auto jumbosize">
                 {this.handlepath()}
-        
+        </div>
             </div>
         )
     }

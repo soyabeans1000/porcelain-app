@@ -34,7 +34,7 @@
 }
 
 .bathroomCard {
-    width:50%;
+    width:100%;
     margin:auto;
     background-color: lightgrey;
       
@@ -47,9 +47,12 @@
     margin-top:100px;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom:200px;
+    margin-bottom:200px;   
+}
 
-    
+.jumbosize
+{
+    width:60%
 }
 
 @media only screen and (max-width: 640px) {
@@ -65,7 +68,12 @@
 }
 
 .bathroomCard {
-    width:90%; 
+    width:100%; 
+}
+
+.jumbosize
+{
+    width:90%
 }
 
 
@@ -75,7 +83,7 @@
 
 
     .bathroomCard {
-        width:80%;
+        width:100%;
         margin:auto;   
     }
 
@@ -87,5 +95,10 @@
         margin-right:auto;
         margin-bottom:80px;
     }
+
+    .jumbosize
+{
+    width:90%
+}
 
 }
