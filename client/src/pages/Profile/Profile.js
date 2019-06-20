@@ -65,8 +65,8 @@ class Profile extends Component {
         } else {
             return (
                 <div>
-                    <div className="jumbotron text-center">
-                        <h3 className="username">Profile {this.state.username}</h3>
+                    <div className="jumbotron mt-0 text-center bg-transparent border">
+                        <h3 className="username">Profile: {this.state.username}</h3>
                         <br/>
                         <img src={this.state.userimage} className="profileimg"/><br>
                         </br>
@@ -82,9 +82,9 @@ class Profile extends Component {
     }
     render() {
         return (
-            <div className="profile_containe border">
+            <div className="profile_container">
             
-            <div className="jumbotron mx-auto jumbosize">
+            <div className="jumbotron mx-auto jumbosize bg-transparent">
                 {this.handlepath()}
         </div>
             </div>

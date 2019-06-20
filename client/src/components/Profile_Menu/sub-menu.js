@@ -5,9 +5,7 @@ import ProfileComments from './Comments'
 import { IoIosHeart } from "react-icons/io"
 import { FaCommentDots } from "react-icons/fa"
 
-const jumbosize = {
-  width: '50%'
-}
+
 
 class ProfileSubMenu extends React.Component {
 
@@ -39,8 +37,8 @@ class ProfileSubMenu extends React.Component {
     <div>
       <BrowserRouter>  
             <nav>
-              <Link to='/Likes' onClick={this.handlelikes} > <IoIosHeart className="icons"/> Likes </Link>
-              <Link to='/Comments' onClick={this.handlelikes}> <FaCommentDots className="icons"/>Comments</Link>
+              <Link to='/Likes' onClick={this.handlelikes} > <IoIosHeart className="icons"/> </Link>
+              <Link to='/Comments' onClick={this.handlelikes}> <FaCommentDots className="icons"/></Link>
             </nav>
           {this.handlelikestate()}
       </BrowserRouter> 
