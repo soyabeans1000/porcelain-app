@@ -88,7 +88,7 @@ export class MapContainer extends Component {
           initialCenter={this.state.userLocation}
           zoom={16}
           gestureHandling= 'greedy'
-          style={{ width: "100%", height: "67%" }}
+          style={{ width: "100%", height: "90%" }}
         >
           <Marker icon='http://maps.google.com/mapfiles/ms/icons/blue-dot.png' name="Current Location">position={this.state.userLocation}</Marker>
           {this.renderMarkers()}
@@ -108,7 +108,6 @@ export class MapContainer extends Component {
   render() {
     return (
       <div>
-      
         {this.state.loading ? null : this.renderMap()}
       
       </div>

@@ -5,9 +5,7 @@
 }
 .profileimg {
     width: 100px;
-    height: 100px;
-    
-    
+    height: 100px;    
     border-radius: 100%;
     -webkit-border-radius:;
     -moz-border-radius:;
@@ -46,8 +44,7 @@
     margin-top:60px;
     margin-left:auto;
     margin-right:auto;
-    margin-bottom:50px; 
-      
+    margin-bottom:50px;      
 }
 
 .jumbosize
@@ -58,7 +55,6 @@
 }
 
 @media only screen and (max-width: 640px) {
-
 
     .profile_container
 {
@@ -75,8 +71,7 @@
 
 .jumbosize
 {
-    width:100%
-    
+    width:100%;  
 }
 
 
