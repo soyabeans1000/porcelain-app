@@ -65,10 +65,12 @@ class Profile extends Component {
         } else {
             return (
                 <div>
-                    <div className="jumbotron">
-                        <h3 className="username">UserName:{this.state.username}</h3>
-                        <img src={this.state.userimage} className="profileimg"/>
-                        <button onClick={this.handlechangepicture} className="picture float-right"><FaCamera /></button>
+                    <div className="jumbotron text-center">
+                        <h3 className="username">Profile {this.state.username}</h3>
+                        <br/>
+                        <img src={this.state.userimage} className="profileimg"/><br>
+                        </br>
+                        <button onClick={this.handlechangepicture} className="picture"><FaCamera /></button>
                         <input class="file-upload" type="file" accept="image/*" className="profileinput" ref={input => this.inputElement = input} onChange={this.handlepictureinput}/>
                         <SubMenu toggleredirect={this.toggleredirect}/>
                    
@@ -80,7 +82,7 @@ class Profile extends Component {
     }
     render() {
         return (
-            <div className="profile_container">
+            <div className="profile_containe border">
             
             <div className="jumbotron mx-auto jumbosize">
                 {this.handlepath()}

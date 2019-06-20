@@ -6,8 +6,8 @@
 .profileimg {
     width: 100px;
     height: 100px;
-    float: right;
-    margin-right: 4%;
+    
+    
     border-radius: 100%;
     -webkit-border-radius:;
     -moz-border-radius:;
@@ -27,8 +27,7 @@
     background-color: transparent;
 }
 .username{
-    margin-top:10px;
-    width:54px;
+   
     font-family: 'Poppins', sans-serif !important;
     font-size:18px;
 }
@@ -52,7 +51,8 @@
 
 .jumbosize
 {
-    width:60%
+    width:65%; 
+    background-color: red;
 }
 
 @media only screen and (max-width: 640px) {
@@ -74,6 +74,7 @@
 .jumbosize
 {
     width:90%
+    
 }
 
 

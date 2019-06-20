@@ -2,11 +2,16 @@ import React from 'react'
 import { IoIosHeart, IoIosHeartEmpty } from "react-icons/io"
 import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap'
 
+const sizer = {
+
+    width:'50%'
+}
+
 const Bathroomform = ({ isliked, bathroom, handleLikebutton, likecount, newcomment, handleInputChange, handleSubmit, handledelete, comments}) => {
     const loggedInUser = parseInt(localStorage.getItem('userId'))
     return <div>
     {bathroom.map(({location, image, gender, stalls, level, cleanliness, caption}) => (
-        <Card className="card_size cardsize">
+        <Card className="card_size cardsize" style={sizer}>
             <CardImg className="cardimg" src={image}/>
             <CardBody>
                 <CardTitle className="Ctitle"> {location}<br/> {caption} </CardTitle>
