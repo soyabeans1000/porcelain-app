@@ -3,10 +3,6 @@
     width: 100px;
     height: 100px;    
     border-radius: 100%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 .profileinput {
     display: none;
