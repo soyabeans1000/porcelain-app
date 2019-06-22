@@ -79,7 +79,7 @@ class ProfileComments extends Component {
                
                             {this.state.posts.map(item => (
                                 <div>
-                                    <Card id={item.bathroomId} className="bathroomCard m-5" onClick={this.handlebathroomId}>
+                                    <Card id={item.bathroomId} className="bathroomCard" onClick={this.handlebathroomId}>
                                         <CardImg top width="100%" src={item.image}  />                                      
                                         <CardBody>
                                             <CardTitle>{item.location}</CardTitle>
