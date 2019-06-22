@@ -66,7 +66,7 @@ class Profile extends Component {
             return (
                 <div>
                     <div className="jumbotron mt-0 text-center bg-transparent border">
-                        <h3 className="username">Profile: {this.state.username}</h3>
+                        <h3 className="username">UserName: {this.state.username}</h3>
                         <br/>
                         <img src={this.state.userimage} className="profileimg"/><br>
                         </br>
