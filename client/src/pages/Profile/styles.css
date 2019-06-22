@@ -1,8 +1,4 @@
-.bathroomCard {
-    width:50%;
-    margin:auto;
-   
-}
+
 .profileimg {
     width: 100px;
     height: 100px;    
@@ -32,8 +28,11 @@
 
 .bathroomCard {
     width:100%;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
     background-color: lightgrey;
+    margin-top:10px;
+    margin-bottom:10px;
       
 }
 
