@@ -53,12 +53,6 @@ const Bathroomform = ({ isliked, bathroom, handleLikebutton, likecount, newcomme
 
 
 
-
-
-
-
-
-
         // <!-- dont touch here -->
                 ))}
             </div>

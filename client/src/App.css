@@ -93,8 +93,13 @@ img {
   margin: 154% 3% 28% 3%;
 }
 .requestcontainer {
-  margin-top: 20%;
-  margin-bottom: 26%
+ 
+  width:50%;
+  margin-top:90px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:90px;
+
 }
 .submenu {
   margin-top: 2%;
