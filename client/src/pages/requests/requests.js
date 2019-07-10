@@ -80,8 +80,8 @@ class Requests extends Component {
                                 </br> {request.gender}
                                 </span>
                                 <div>
-                                    <button id={request.id} value={index} onClick={this.handleapproval} className="submission"><MdCheck /></button>
-                                    <button id={request.id} value={index} onClick={this.handledeny} className="submission"><MdClose /></button>
+                                    <button id={request.id} value={index} onClick={this.handleapproval} className="submission"><MdCheck size={30} color="red"/></button>
+                                    <button id={request.id} value={index} onClick={this.handledeny} className="submission"><MdClose size={30} color="black"/></button>
                                 </div>
                             </CardText>
                         </CardBody>
